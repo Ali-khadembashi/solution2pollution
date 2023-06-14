@@ -24,7 +24,7 @@ export default function FactoryDetail() {
     <>
       <div className='flext flex-col items-center justify-center text-center'>
         <div className='flex flex-col'>
-          <label htmlFor="main-input">Please entermultiple natural numebrs separated by commas</label>
+          <label htmlFor="main-input">Please enter multiple natural numebrs separated by commas</label>
           <input id='main-input' className='text-black' type="text" ref={inputVal} onInput={debouncedHandleInput} />
           {isError ? <small className='text-red-500'>Please make sure that you only enter natural numbers separated by comma </small> : <small className='text-red-500 hidden'>Please make sure that you only enter natural numbers separated by comma </small>}
         </div>
